@@ -1,0 +1,100 @@
+.likes-screen .search-bar {
+  margin: 20px -4px;
+  background-color: var(--main-color);
+  height: 42px;
+  display: flex;
+  align-items: center;
+  animation: slideDown 0.7s both;
+  animation-delay: 0.3s;
+}
+
+.search-icon {
+  position: absolute;
+  left: 36px;
+  opacity: 0.4;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: background-color 0.4s, width 0.5s;
+  border-radius: 8px;
+  background-color: #56656d;
+  flex-shrink: 0;
+  color: var(--main-font-color);
+}
+.search-input::placeholder {
+  text-align: center;
+  color: var(--main-font-color);
+  font-size: 16px;
+  opacity: 0.4;
+}
+.search-input:focus {
+  background-color: #5e6c74;
+  width: 95%;
+}
+
+.search-cancel-btn {
+  background-color: var(--main-color);
+  color: var(--main-font-color);
+  flex-shrink: 0;
+  width: 5%;
+  height: 100%;
+  margin-left: 12px;
+  opacity: 0;
+  transition: 0.6s;
+}
+.search-input:focus ~ .search-cancel-btn {
+  opacity: 1;
+}
+
+.likes-screen .main-script {
+  margin-top: 137px;
+}
+
+.imgs {
+  margin-top: 30px;
+}
+.imgs__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img--xl {
+  width: 49%;
+  height: 145px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  transition: 0.31s;
+  animation: slideUp 0.5s both;
+}
+
+.img--xl:hover {
+  height: 220px;
+}
+.imgs__row:nth-child(1) li:nth-child(1) {
+  background-image: url("../../img/likes-1.jpg");
+  animation-delay: 0.2s;
+}
+.imgs__row:nth-child(1) li:nth-child(2) {
+  background-image: url("../../img/likes-2.jpg");
+  animation-delay: 0.3s;
+}
+.imgs__row:nth-child(2) li:nth-child(1) {
+  background-image: url("../../img/likes-3.jpg");
+  animation-delay: 0.4s;
+}
+.imgs__row:nth-child(2) li:nth-child(2) {
+  background-image: url("../../img/likes-4.jpg");
+  animation-delay: 0.2s;
+}
+.imgs__row:nth-child(3) li:nth-child(1) {
+  background-image: url("../../img/issue-3.jpg");
+  animation-delay: 0.3s;
+}
+.imgs__row:nth-child(3) li:nth-child(2) {
+  background-image: url("../../img/issue-4.jpg");
+  animation-delay: 0.4s;
+}

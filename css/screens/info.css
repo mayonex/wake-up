@@ -1,0 +1,23 @@
+.icon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px;
+}
+
+.info-screen .main-script {
+  margin-top: 137px;
+}
+
+#line {
+  margin: 40px 0px;
+  width: 56px;
+  height: 1px;
+  background-color: var(--main-font-color);
+}
+
+.info-paragraph {
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+}

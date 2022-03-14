@@ -1,0 +1,72 @@
+.feature {
+  height: 330px;
+  background-image: url("../../img/issue-1.jpg");
+  position: relative;
+  margin: 0px -24px;
+}
+/* background-image : css를 이용해서 img태그를 이용하지 않고, Img를 넣는 방법. */
+/* 비율 안맞으면 background-size:cover */
+
+.feature h2 {
+  position: absolute;
+  top: 32px;
+  right: 26px;
+  font-size: 28px;
+}
+.issues-screen .main-script {
+  position: absolute;
+  bottom: 40px;
+}
+
+.issues-screen .script__title {
+  display: flex;
+  position: relative;
+}
+
+#issues-count {
+  font-size: 8px;
+  position: absolute;
+  right: 85px;
+  top: -3px;
+  font-weight: 200;
+}
+
+/* 가로 list img */
+
+.swiper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  perspective: 500px;
+}
+
+.img--sm {
+  margin-right: 14px;
+  width: 25%;
+  height: 100px;
+  border-radius: 15px;
+  transition: 0.35s;
+  will-change: transform;
+  animation: slideRight 0.5s both;
+}
+.img--sm:hover {
+  transform: translate3d(5px, 15px, 2px) scale3d(1, 1.4, 1);
+  width: 33%;
+}
+.img--sm:first-child {
+  background-image: url("../../img/issue-2.jpg");
+}
+.img--sm:nth-child(2) {
+  background-image: url("../../img/issue-3.jpg");
+  animation-delay: 0.12s;
+}
+.img--sm:nth-child(3) {
+  background-image: url("../../img/issue-4.jpg");
+  animation-delay: 0.24s;
+}
+.img--sm:last-child {
+  background-image: url("../../img/likes-4.jpg");
+  animation-delay: 0.33s;
+
+  margin-right: 0px;
+}

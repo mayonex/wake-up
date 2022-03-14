@@ -1,0 +1,123 @@
+@keyframes mainAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Index 페이지 원 애니매이션 */
+@keyframes circleShow {
+  from {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.5);
+    background-color: aquamarine;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes circleShow2 {
+  from {
+    opacity: 0;
+    transform: translateX(-110px) scale(0.5);
+    background-color: aquamarine;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes circleShow3 {
+  from {
+    opacity: 0;
+    transform: translateX(-180px) scale(0.5);
+    background-color: aquamarine;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes circleShow4 {
+  from {
+    opacity: 0;
+    transform: translateX(-240px) scale(0.8);
+    background-color: aquamarine;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Index 페이지 뱃지 내려오는 애니메이션 */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+/* 글자가 사라졌다가 올라오는 애니매이션 */
+@keyframes textAnimation {
+  from {
+    opacity: 0;
+    transform: translate3d(0px, 40px, 0px) scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* 오른쪽에서 촤라락 등장하는 애니매이션 */
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translate3d(40px, 0px, 0px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+/* 아래에서 위로 촤차락 */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0px, 40px, 0px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* notification-num 두둥둥장 */
+@keyframes rotateAnimation {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+    background-color: aliceblue;
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* 배경색 변하는 애니매에션 */
+@keyframes backgroundColorChange {
+  from {
+    opacity: 0;
+    background-color: var(--main-color);
+  }
+  to {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
